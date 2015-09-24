@@ -72,4 +72,4 @@ Root contains no arguments and sets the internal element pointer of the module t
 
 #### up()
 
-Up contains no arguments and is similar to root() in that it changes the internal element pointer of the module to the parent of the current element. It is useful in cases where you do not wish to start back at the root, but simply wish to bubble up one level so that you can create new children. If the current element has no parent element then up() will raise an exception.
+Up contains no arguments and is similar to root() in that it changes the internal element pointer of the module to the parent of the current element. It is useful in cases where you do not wish to start back at the root, but simply wish to bubble up one level so that you can create new children. In the example given, the call to root() could have been replaced with up() since either way we would only be going up one level from header to content. If the current element has no parent element then up() will raise an exception.
