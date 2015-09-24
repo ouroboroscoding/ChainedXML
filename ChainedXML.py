@@ -1,12 +1,10 @@
 # coding=utf8
-##@package dvtl2-lib
+## ChainedXML module
 #
-# XML module
-#
-# Wraps cELementTree classes into a more easily usable interface
+# Wraps ELementTree classes into a more easily usable interface
 #
 # @author Chris Nasr
-# @copyright Gaargle Solutions
+# @copyright FUEL for the FIRE
 # @created 2015-09-10
 
 # Import python core modules
